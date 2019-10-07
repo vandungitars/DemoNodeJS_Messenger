@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-let schema = mongoose.Schema;
+let Schema = mongoose.Schema;
 
 let ChatGroupSchema = new Schema({
     name: String,
